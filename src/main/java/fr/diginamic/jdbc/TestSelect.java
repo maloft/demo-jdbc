@@ -63,7 +63,9 @@ public class TestSelect {
            }
             
             
-            
+	       if(curseur != null) {
+	    	   curseur.close();
+	       }
             
             
             
@@ -80,6 +82,8 @@ public class TestSelect {
 	        if(statement != null) {
 	           statement.close();
 	       }
+	        
+
 	
 
         }

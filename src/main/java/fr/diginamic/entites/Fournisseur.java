@@ -11,7 +11,10 @@ public class Fournisseur {
 		
 	}
 	
-	
+	public Fournisseur(int id, String nom) {
+		this.ID = id;
+		this.NOM = nom;
+	}
 	
 	
 	@Override
